@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [bows (v1.6.0)](https://github.com/latentflip/bows#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bows.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bows) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bows.svg)](https://travis-ci.org/npmtest/node-npmtest-bows)",
+    "description": "#### basic test coverage for  [bows (v1.6.0)](https://github.com/latentflip/bows#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bows.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bows) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bows.svg)](https://travis-ci.org/npmtest/node-npmtest-bows)",
     "devDependencies": {
         "bows": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

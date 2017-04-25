@@ -1,6 +1,6 @@
 # npmtest-bows
 
-#### test coverage for  [bows (v1.6.0)](https://github.com/latentflip/bows#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bows.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bows) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bows.svg)](https://travis-ci.org/npmtest/node-npmtest-bows)
+#### basic test coverage for  [bows (v1.6.0)](https://github.com/latentflip/bows#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-bows.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bows) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bows.svg)](https://travis-ci.org/npmtest/node-npmtest-bows)
 
 #### Rainbowed console logs for chrome, opera and firefox in development.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bows/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bows/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bows/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bows/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bows/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bows/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bows/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bows/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bows/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bows/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bows/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bows/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
         "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish",
         "test": "node build.js && phantomjs test/index.js"
     },
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "bin": {}
 }
 ```
 
